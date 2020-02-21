@@ -1,0 +1,19 @@
+.bg-image{
+    background-image: url("/assets/backgrounds/h_img.jpg");
+    height: 100vh;
+    width: 100%;
+
+}
+.tribe{
+    text-align: center;
+    width: auto;
+    padding: 170px;
+    background-position: initial;
+    /* padding-bottom: 30px; */
+}
+.text{
+    color: white;
+}
+.about{
+    text-align: center;
+}
