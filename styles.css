@@ -51,7 +51,35 @@ h6{
 h3{
     text-align: center;
 }
-.colum{
+.sike{
+    padding-top: 10px;
+}
+/* .colum{
     justify-content: space-evenly;
     padding-bottom: 10px;
+     */
+/* } */
+.vibe{
+    padding-bottom: 15px;
+}
+/* .form-row{
+    background-image: url("/assets/backgrounds/c_image.jpg");
+    height: 60vh;
+    width: 100%;
+    text-align: center;
+    background-repeat: no-repeat;
+    color: beige;
+    padding: 100px;
+} */
+.Pic{
+    background-image: url("/assets/backgrounds/c_image.jpg");
+    width: 100%;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+#footer{
+    text-align: center;
+    
+   padding: 10px;
 }
