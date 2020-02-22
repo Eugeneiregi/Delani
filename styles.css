@@ -37,7 +37,8 @@
 .row{
   float: left;
   width: 100.33%;
-  padding: 5px;
+  padding-top: 15px;
+  padding-bottom: 0px;
   text-align: center;
   justify-content: space-between;
 }
@@ -75,11 +76,14 @@ h3{
     background-image: url("/assets/backgrounds/c_image.jpg");
     width: 100%;
     overflow: hidden;
-    text-decoration: none;
+    text-decoration: transparent;
 }
 
 #footer{
     text-align: center;
     
    padding: 10px;
+}
+.col-md-4 mb-3{
+    text-decoration: none;
 }
