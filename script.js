@@ -1,12 +1,12 @@
  
 
     
-      $(".typ").click(function(){
-      $(this).hide();
-      $("typ").toggle();
-      $("#ttt").show();
-      $(".typ").toggle();
-      });
+      // $(".typ").click(function(){
+      // $(this).hide();
+      // $("typ").toggle();
+      // $("#ttt").show();
+      // $(".typ").toggle();
+      // });
 
 
 
@@ -14,11 +14,27 @@ $(document).ready(function(){
 
 $("#tbt").click(function() {
     $(".eg").show("2000");
-    $("#tbt").hide("slow")
+    $("#tbt").hide("slow");
   }); 
   $(".eg").click(function() {
     $("#tbt").show("2000");
     $(".eg").hide("slow")
+  });
+  $("#typ").click(function() {
+    $(".ttt").show("2000");
+    $("#typ").hide("slow");
+  }); 
+  $(".ttt").click(function() {
+    $("#typ").show("2000");
+    $(".ttt").hide("slow");
+  });
+  $("#txm").click(function() {
+    $(".pge").show("2000");
+    $("#txm").hide("slow");
+  }); 
+  $(".pge").click(function() {
+    $("#txm").show("2000");
+    $(".pge").hide("slow")
   });
 });
 
@@ -29,7 +45,22 @@ $("#image1").hover(function(){
 $("#image2").hover(function(){
     $("#text2").toggle()
 })
+$("#image3").hover(function(){
+  $("#text3").toggle()
+ })
+ $("#image4").hover(function(){
+  $("#text4").toggle()
+ })
 $("#image5").hover(function(){
     $("#text5").toggle()
+   })
+   $("#image6").hover(function(){
+    $("#text6").toggle()
+   })
+   $("#image7").hover(function(){
+    $("#text7").toggle()
+   })
+   $("#image8").hover(function(){
+    $("#text8").toggle()
    })
 });

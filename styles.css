@@ -87,13 +87,16 @@ h3{
     
    padding: 10px;
 }
-.col-md-4 mb-3{
+/* .col-md-4 mb-3{
     text-decoration: none;
-}
+} */
 #design1{
     display: none;
 }
-#ttt{
+.pge {
+    display: none;
+}
+.ttt{
     display: none;
 }
 .sikes{
