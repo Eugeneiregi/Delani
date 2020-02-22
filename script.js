@@ -21,9 +21,15 @@ $("#tbt").click(function() {
     $(".eg").hide("slow")
   });
 });
+
 $(document).ready(function(){
-$(".sikes").hover(function(){
-    $(".project-text").toggle()
-    
+$("#image1").hover(function(){
+    $("#text1").toggle()
+   })
+$("#image2").hover(function(){
+    $("#text2").toggle()
 })
+$("#image5").hover(function(){
+    $("#text5").toggle()
+   })
 });
