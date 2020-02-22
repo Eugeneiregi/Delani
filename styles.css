@@ -96,3 +96,31 @@ h3{
 #ttt{
     display: none;
 }
+.sikes{
+    margin-bottom: 20px;
+}
+.sike:hover{
+    transform: scale(1.1);
+}
+.project-text {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color:black;
+    border: 3px solid white;
+    background:lime;
+    padding: 10px;
+    display:none;
+
+
+}
+.sikes:hover {
+    position: relative;
+    opacity: 0.5;
+    /* background: red; */
+    /* display:flex;
+    justify-content: center;
+    text-align: center; */
+
+}

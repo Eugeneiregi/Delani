@@ -1,10 +1,5 @@
-$(document).ready(function(){
-    $("#tbt").click(function(){
-       $(this).hide();
-       $("#tbt").hide();
-       $(".eg").toggle();
-       $("#tbt").toggle();
-    });
+ 
+
     
       $(".typ").click(function(){
       $(this).hide();
@@ -13,4 +8,22 @@ $(document).ready(function(){
       $(".typ").toggle();
       });
 
+
+
+$(document).ready(function(){
+
+$("#tbt").click(function() {
+    $(".eg").show("2000");
+    $("#tbt").hide("slow")
+  }); 
+  $(".eg").click(function() {
+    $("#tbt").show("2000");
+    $(".eg").hide("slow")
+  });
+});
+$(document).ready(function(){
+$(".sikes").hover(function(){
+    $(".project-text").toggle()
+    
 })
+});
