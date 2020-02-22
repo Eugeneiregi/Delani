@@ -72,6 +72,9 @@ h3{
     color: beige;
     padding: 100px;
 } */
+.eg{
+    display: none;
+}
 .Pic{
     background-image: url("/assets/backgrounds/c_image.jpg");
     width: 100%;
@@ -86,4 +89,10 @@ h3{
 }
 .col-md-4 mb-3{
     text-decoration: none;
+}
+#design1{
+    display: none;
+}
+#ttt{
+    display: none;
 }
