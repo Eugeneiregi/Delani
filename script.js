@@ -13,11 +13,11 @@
 $(document).ready(function(){
 
 $("#tbt").click(function() {
-    $(".eg").show("2000");
+    $(".eg").show("3000");
     $("#tbt").hide("slow");
   }); 
   $(".eg").click(function() {
-    $("#tbt").show("2000");
+    $("#tbt").show("3000");
     $(".eg").hide("slow")
   });
   $("#typ").click(function() {
@@ -74,8 +74,8 @@ function myFunction(){
   var email = document.getElementById("firstName").Value;
   var validate = (firstName>0 && secondName>0 && email>0);
   if(validate.checked){
-    document.getElementById("output").innerHTML=("Your input have been recorded");
-    // alert("Your message has been recorded")
+    // document.getElementById("output").innerHTML=("Your input have been recorded");
+    return(alert("Your message has been recorded"));
   }
    else if (validate == false){
     alert("Your message has not been recorded")
