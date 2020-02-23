@@ -78,7 +78,7 @@ function myFunction(){
     // alert("Your message has been recorded")
   }
    else if (validate == false){
-    alert("Your message has not been")
+    alert("Your message has not been recorded")
   }
   // alert("Your input have been recorded");
   
