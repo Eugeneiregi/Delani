@@ -77,8 +77,9 @@ function myFunction(){
     alert("invalid input")
   }
   // alert("Your input have been recorded");
-  else if(validate == true){
+  else if(validate.checked){
     document.getElementById("output").innerHTML=("Your input have been recorded");
+    // alert("Your message has been recorded")
   }
   
 }
