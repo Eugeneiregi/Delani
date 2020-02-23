@@ -64,3 +64,21 @@ $("#image5").hover(function(){
     $("#text8").toggle()
    })
 });
+
+
+
+
+function myFunction(){
+  var firstName = document.getElementById("firstName").Value;
+  var secondName = document.getElementById("firstName").Value;
+  var email = document.getElementById("firstName").Value;
+  var validate = (firstName>0 && secondName>0 && email>0);
+  if (validate == false){
+    alert("invalid input")
+  }
+  // alert("Your input have been recorded");
+  else if(validate == true){
+    document.getElementById("output").innerHTML=("Your input have been recorded");
+  }
+  
+}

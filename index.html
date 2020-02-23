@@ -133,7 +133,7 @@
                     <h3>CONTACT US</h3>
                     <div class="col-md-4 mb-3">
                         <label for="validationServer01">First name</label>
-                        <input type="text" class="form-control is-valid" id="validationServer01"
+                        <input type="text" class="form-control is-valid" id="firstName"
                             placeholder="First name" value="" required>
                         <div class="valid-feedback">
                             Looks good!
@@ -141,7 +141,7 @@
                     </div>
                     <div class="col-md-4 mb-3">
                         <label for="validationServer02">Second name</label>
-                        <input type="text" class="form-control is-valid" id="validationServer02"
+                        <input type="text" class="form-control is-valid" id="secondName"
                             placeholder="second name" value="" required>
                         <div class="valid-feedback">
                             Looks good!
@@ -149,17 +149,18 @@
                     </div>
                     <div class="form-group">
                         <label for="exampleInputEmail1">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
                             placeholder="Enter email">
                         <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
                             else.</small>
                     </div>
                     <div class="form-group">
                         <label for="exampleFormControlTextarea3">Place your text here</label>
-                        <textarea class="form-control" placeholder="Input text" id="exampleFormControlTextarea3"
+                        <textarea class="form-control" placeholder="Input text" id="text"
                             rows="7"></textarea>
                     </div>
                     <button onclick="myFunction()" type="">Submit</button>
+                    <p id="output"></p>
                     <!-- <div class="col-md-4 mb-3">
                 <label for="validationServerUsername">Username</label>
                 <div class="input-group">
@@ -169,7 +170,7 @@
                   <input type="text" class="form-control is-invalid" id="validationServerUsername" placeholder="Username" aria-describedby="inputGroupPrepend3" required>
                   <div class="invalid-feedback">
                     Please choose a username.
-                  </div>
+                  </div>document.getElementById("output").innerHTML=
                 </div> -->
                 </div>
             </div>
