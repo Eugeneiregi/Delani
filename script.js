@@ -73,14 +73,15 @@ function myFunction(){
   var secondName = document.getElementById("firstName").Value;
   var email = document.getElementById("firstName").Value;
   var validate = (firstName>0 && secondName>0 && email>0);
-  if(validate.checked){
-    // document.getElementById("output").innerHTML=("Your input have been recorded");
-    return(alert("Your message has been recorded"));
-  }
-   else if (validate == false){
-    alert("Your message has not been recorded")
-  }
+  // if(validate ==true){
+  //   // document.getElementById("output").innerHTML=("Your input have been recorded");
+  //   return(alert("Your message has been recorded"));
+  // }
+  //  else if (validate == false){
+  //   alert(  + "Your message has been recorded thank you for choosing us to serve you")
+  // }
   // alert("Your input have been recorded");
+  alert("Your message has been recorded")
   
   
 }
