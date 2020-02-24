@@ -69,19 +69,20 @@ $("#image5").hover(function(){
 
 
 function myFunction(){
-  var firstName = document.getElementById("firstName").Value;
-  var secondName = document.getElementById("firstName").Value;
-  var email = document.getElementById("firstName").Value;
-  var validate = (firstName>0 && secondName>0 && email>0);
-  // if(validate ==true){
-  //   // document.getElementById("output").innerHTML=("Your input have been recorded");
-  //   return(alert("Your message has been recorded"));
-  // }
-  //  else if (validate == false){
-  //   alert(  + "Your message has been recorded thank you for choosing us to serve you")
-  // }
+  var firstName = document.getElementById("#firstName").value;
+  var secondName = document.getElementById("#secondName").value;
+  var email = document.getElementById("#email").value;
+  var validate = (firstName !== '' && secondName !== '' && email !== '');
+  if(validate ==true){
+    // document.getElementById("output").innerHTML=("Your input have been recorded");
+    return(alert("Your message has been recorded"));
+  }
+   else if (validate == false){
+    alert( "Your message has not been recorded ");
+  }
+  event.preventDefault();
   // alert("Your input have been recorded");
-  alert("Your message has been recorded")
+  // alert("Your message has been recorded")
   
   
 }
