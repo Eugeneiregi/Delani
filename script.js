@@ -17,7 +17,7 @@ $("#tbt").click(function() {
     $("#tbt").hide("slow");
   }); 
   $(".eg").click(function() {
-    $("#tbt").show("3000");
+    $("#tbt").show("2000");
     $(".eg").hide("slow")
   });
   $("#typ").click(function() {
@@ -69,13 +69,13 @@ $("#image5").hover(function(){
 
 
 function myFunction(){
-  var firstName = document.getElementById("#firstName").value;
-  var secondName = document.getElementById("#secondName").value;
-  var email = document.getElementById("#email").value;
+  var firstName = $('input#firstName').val();
+  var secondName = $("input#secondName").val();
+  var email = $("input#email").val();
   var validate = (firstName !== '' && secondName !== '' && email !== '');
   if(validate ==true){
     // document.getElementById("output").innerHTML=("Your input have been recorded");
-    return(alert("Your message has been recorded"));
+    alert("Your message has been recorded");
   }
    else if (validate == false){
     alert( "Your message has not been recorded ");
